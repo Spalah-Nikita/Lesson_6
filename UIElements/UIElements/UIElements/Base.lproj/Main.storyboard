@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXb-n9-6Ek">
+                                <rect key="frame" x="31" y="50" width="313" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HNN-1H-r5b"/>
+                                </constraints>
+                                <state key="normal" title="Заварить кофе "/>
+                                <connections>
+                                    <action selector="buttonWasTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="opm-gk-PFf"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Xn-e8-lSC">
+                                <rect key="frame" x="16" y="120" width="200" height="30"/>
+                                <color key="backgroundColor" red="0.89411764709999997" green="0.84313725490000002" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="lgF-Dn-O9L"/>
+                                    <constraint firstAttribute="width" constant="200" id="miI-Mp-w51"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dgc-Mr-m60">
+                                <rect key="frame" x="31" y="170" width="313" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="SQp-9C-gSZ"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="rCL-l2-hTl"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="AXb-n9-6Ek" secondAttribute="trailing" constant="15" id="2v0-qC-sRx"/>
+                            <constraint firstItem="AXb-n9-6Ek" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="HoP-3K-05U"/>
+                            <constraint firstItem="Dgc-Mr-m60" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="K7x-mW-dID"/>
+                            <constraint firstItem="AXb-n9-6Ek" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="OYa-Ie-Ri8"/>
+                            <constraint firstItem="5Xn-e8-lSC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="W0E-mL-Zj1"/>
+                            <constraint firstItem="Dgc-Mr-m60" firstAttribute="top" secondItem="5Xn-e8-lSC" secondAttribute="bottom" constant="20" id="c3A-bz-diS"/>
+                            <constraint firstItem="5Xn-e8-lSC" firstAttribute="top" secondItem="AXb-n9-6Ek" secondAttribute="bottom" constant="40" id="kdW-aT-w7w"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Dgc-Mr-m60" secondAttribute="trailing" constant="15" id="lQT-9E-hb7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loaderView" destination="5Xn-e8-lSC" id="O50-Pp-uco"/>
+                        <outlet property="loaderWidthCondtraint" destination="miI-Mp-w51" id="6YL-yS-VOI"/>
+                        <outlet property="pushMeButton" destination="AXb-n9-6Ek" id="4K6-F9-t7g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-258.39999999999998" y="68.815592203898049"/>
+        </scene>
+    </scenes>
+</document>
