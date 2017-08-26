@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A14186C1F519C7B009166CC /* CoffeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A14186B1F519C7B009166CC /* CoffeeViewController.m */; };
 		1A1950A51F507EE50079ECBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1950A41F507EE50079ECBF /* main.m */; };
 		1A1950A81F507EE50079ECBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1950A71F507EE50079ECBF /* AppDelegate.m */; };
 		1A1950AB1F507EE50079ECBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1950AA1F507EE50079ECBF /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A14186A1F519C7B009166CC /* CoffeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeViewController.h; sourceTree = "<group>"; };
+		1A14186B1F519C7B009166CC /* CoffeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeViewController.m; sourceTree = "<group>"; };
 		1A1950A01F507EE50079ECBF /* UIElements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIElements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1950A41F507EE50079ECBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A1950A61F507EE50079ECBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				1A1950B11F507EE50079ECBF /* LaunchScreen.storyboard */,
 				1A1950B41F507EE50079ECBF /* Info.plist */,
 				1A1950A31F507EE50079ECBF /* Supporting Files */,
+				1A14186A1F519C7B009166CC /* CoffeeViewController.h */,
+				1A14186B1F519C7B009166CC /* CoffeeViewController.m */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A14186C1F519C7B009166CC /* CoffeeViewController.m in Sources */,
 				1A1950AB1F507EE50079ECBF /* ViewController.m in Sources */,
 				1A1950A81F507EE50079ECBF /* AppDelegate.m in Sources */,
 				1A1950A51F507EE50079ECBF /* main.m in Sources */,
@@ -312,6 +318,7 @@
 				1A1950B91F507EE50079ECBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
