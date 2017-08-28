@@ -7,28 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A14186C1F519C7B009166CC /* CoffeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A14186B1F519C7B009166CC /* CoffeeViewController.m */; };
 		1A1950A51F507EE50079ECBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1950A41F507EE50079ECBF /* main.m */; };
 		1A1950A81F507EE50079ECBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1950A71F507EE50079ECBF /* AppDelegate.m */; };
-		1A1950AB1F507EE50079ECBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1950AA1F507EE50079ECBF /* ViewController.m */; };
 		1A1950AE1F507EE50079ECBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1950AC1F507EE50079ECBF /* Main.storyboard */; };
 		1A1950B01F507EE50079ECBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1950AF1F507EE50079ECBF /* Assets.xcassets */; };
 		1A1950B31F507EE50079ECBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1950B11F507EE50079ECBF /* LaunchScreen.storyboard */; };
+		1A293AA21F54738900255E66 /* CoffeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A293A9D1F54738900255E66 /* CoffeeViewController.m */; };
+		1A293AA31F54738900255E66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A293A9F1F54738900255E66 /* ViewController.m */; };
+		1A293AA61F5473B500255E66 /* BaseCoffee.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A293AA51F5473B500255E66 /* BaseCoffee.m */; };
+		1A293AA91F5473CB00255E66 /* AmericanoCoffee.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A293AA81F5473CB00255E66 /* AmericanoCoffee.m */; };
+		1A293AAC1F5473E300255E66 /* CappuccinoCoffee.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A293AAB1F5473E300255E66 /* CappuccinoCoffee.m */; };
+		1A293AAF1F5473F400255E66 /* EspressoCoffee.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A293AAE1F5473F400255E66 /* EspressoCoffee.m */; };
+		1A293AB21F5476F700255E66 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A293AB11F5476F700255E66 /* ContentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A14186A1F519C7B009166CC /* CoffeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeViewController.h; sourceTree = "<group>"; };
-		1A14186B1F519C7B009166CC /* CoffeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeViewController.m; sourceTree = "<group>"; };
 		1A1950A01F507EE50079ECBF /* UIElements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIElements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1950A41F507EE50079ECBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A1950A61F507EE50079ECBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A1950A71F507EE50079ECBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1A1950A91F507EE50079ECBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A1950AA1F507EE50079ECBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1A1950AD1F507EE50079ECBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A1950AF1F507EE50079ECBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A1950B21F507EE50079ECBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A1950B41F507EE50079ECBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A293A9C1F54738900255E66 /* CoffeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeViewController.h; sourceTree = "<group>"; };
+		1A293A9D1F54738900255E66 /* CoffeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeViewController.m; sourceTree = "<group>"; };
+		1A293A9E1F54738900255E66 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A293A9F1F54738900255E66 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A293AA41F5473B500255E66 /* BaseCoffee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCoffee.h; sourceTree = "<group>"; };
+		1A293AA51F5473B500255E66 /* BaseCoffee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCoffee.m; sourceTree = "<group>"; };
+		1A293AA71F5473CB00255E66 /* AmericanoCoffee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmericanoCoffee.h; sourceTree = "<group>"; };
+		1A293AA81F5473CB00255E66 /* AmericanoCoffee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmericanoCoffee.m; sourceTree = "<group>"; };
+		1A293AAA1F5473E300255E66 /* CappuccinoCoffee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CappuccinoCoffee.h; sourceTree = "<group>"; };
+		1A293AAB1F5473E300255E66 /* CappuccinoCoffee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CappuccinoCoffee.m; sourceTree = "<group>"; };
+		1A293AAD1F5473F400255E66 /* EspressoCoffee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EspressoCoffee.h; sourceTree = "<group>"; };
+		1A293AAE1F5473F400255E66 /* EspressoCoffee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EspressoCoffee.m; sourceTree = "<group>"; };
+		1A293AB01F5476F700255E66 /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		1A293AB11F5476F700255E66 /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,17 +76,14 @@
 		1A1950A21F507EE50079ECBF /* UIElements */ = {
 			isa = PBXGroup;
 			children = (
+				1A293A9A1F54738900255E66 /* MVC */,
 				1A1950A61F507EE50079ECBF /* AppDelegate.h */,
 				1A1950A71F507EE50079ECBF /* AppDelegate.m */,
-				1A1950A91F507EE50079ECBF /* ViewController.h */,
-				1A1950AA1F507EE50079ECBF /* ViewController.m */,
 				1A1950AC1F507EE50079ECBF /* Main.storyboard */,
 				1A1950AF1F507EE50079ECBF /* Assets.xcassets */,
 				1A1950B11F507EE50079ECBF /* LaunchScreen.storyboard */,
 				1A1950B41F507EE50079ECBF /* Info.plist */,
 				1A1950A31F507EE50079ECBF /* Supporting Files */,
-				1A14186A1F519C7B009166CC /* CoffeeViewController.h */,
-				1A14186B1F519C7B009166CC /* CoffeeViewController.m */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
@@ -82,6 +94,51 @@
 				1A1950A41F507EE50079ECBF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A293A9A1F54738900255E66 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				1A293A9B1F54738900255E66 /* Controller */,
+				1A293AA01F54738900255E66 /* Model */,
+				1A293AA11F54738900255E66 /* View */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		1A293A9B1F54738900255E66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A293A9C1F54738900255E66 /* CoffeeViewController.h */,
+				1A293A9D1F54738900255E66 /* CoffeeViewController.m */,
+				1A293A9E1F54738900255E66 /* ViewController.h */,
+				1A293A9F1F54738900255E66 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1A293AA01F54738900255E66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A293AA41F5473B500255E66 /* BaseCoffee.h */,
+				1A293AA51F5473B500255E66 /* BaseCoffee.m */,
+				1A293AA71F5473CB00255E66 /* AmericanoCoffee.h */,
+				1A293AA81F5473CB00255E66 /* AmericanoCoffee.m */,
+				1A293AAA1F5473E300255E66 /* CappuccinoCoffee.h */,
+				1A293AAB1F5473E300255E66 /* CappuccinoCoffee.m */,
+				1A293AAD1F5473F400255E66 /* EspressoCoffee.h */,
+				1A293AAE1F5473F400255E66 /* EspressoCoffee.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A293AA11F54738900255E66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A293AB01F5476F700255E66 /* ContentView.h */,
+				1A293AB11F5476F700255E66 /* ContentView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,10 +213,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A14186C1F519C7B009166CC /* CoffeeViewController.m in Sources */,
-				1A1950AB1F507EE50079ECBF /* ViewController.m in Sources */,
 				1A1950A81F507EE50079ECBF /* AppDelegate.m in Sources */,
+				1A293AA61F5473B500255E66 /* BaseCoffee.m in Sources */,
+				1A293AB21F5476F700255E66 /* ContentView.m in Sources */,
+				1A293AA21F54738900255E66 /* CoffeeViewController.m in Sources */,
+				1A293AA31F54738900255E66 /* ViewController.m in Sources */,
+				1A293AAC1F5473E300255E66 /* CappuccinoCoffee.m in Sources */,
 				1A1950A51F507EE50079ECBF /* main.m in Sources */,
+				1A293AA91F5473CB00255E66 /* AmericanoCoffee.m in Sources */,
+				1A293AAF1F5473F400255E66 /* EspressoCoffee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
